@@ -1,3 +1,11 @@
-= Geothmetic Meandian
+# Geothmetic Meandian
 
-https://xkcd.com/2435/
+[![XKCD 2435](https://imgs.xkcd.com/comics/geothmetic_meandian.png)](https://xkcd.com/2435/)
+
+## Building
+
+`cargo build --release`
+
+## Running
+
+`./target/release/gmdn -i 9 1 1 2 3 5`
