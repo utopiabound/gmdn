@@ -1,7 +1,9 @@
+// Copyright (c) 2021 Nathaniel Clark
+
 use structopt::StructOpt;
 
 #[derive(Debug, StructOpt)]
-#[structopt(name = "gmdn", about = "Geothmetic Meandian.")]
+#[structopt(name = "gmdn", about = "Geothmetic Meandian")]
 struct Opt {
     /// Iterations
     #[structopt(short, long, default_value = "1")]
