@@ -5,4 +5,4 @@ authors = ["Nathaniel Clark <Nathaniel.Clark@misrule.us>"]
 edition = "2018"
 
 [dependencies]
-structopt = {version = "0.3", default-features = false }
+clap = { version = "4", features = ["std", "derive", "help", "usage"], default-features = false  }
